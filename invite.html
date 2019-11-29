@@ -3,12 +3,14 @@
 <head>
      
 <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const id = urlParams.get('partyId');
     if((/Mobi|Android/i.test(navigator.userAgent))){
         //window.location.href = 'intent://#Intent;package=com.amarlubovac.comby;scheme=comby?partyId=amarlubica;launchFlags=268435456;end;';
-        window.location.href = 'comby://invite?partyId=valueOne';
+        window.location.href = 'comby://invite?partyId=' + id;
     }
     if(/Mobi|iPad|iPhone|iPod/i.test(navigator.userAgent)){
-        window.location.href = 'acceptInvite://something';
+        window.location.href = 'acceptInvite://' + id;
     }
 </script>
 
