@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+     
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const uuid = urlParams.get('uuid');
+	const username = urlParams.get('username');
+    if((/Mobi|Android/i.test(navigator.userAgent))){
+        window.location.href = 'com.cbfs://askkatie?uuid=' + uuidid + '&username=' + username;
+    }
+    if(/Mobi|iPad|iPhone|iPod/i.test(navigator.userAgent)){
+        window.location.href = 'acceptInvite://' + id;
+    }
+</script>
+
+</head>
+<body>
+
+<h2>Loaded</h2>
+                
+</body>
+</html>
