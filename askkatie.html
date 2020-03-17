@@ -7,7 +7,7 @@
     const uuid = urlParams.get('uuid');
 	const username = urlParams.get('username');
     if((/Mobi|Android/i.test(navigator.userAgent))){
-        window.location.href = 'cbfs://askkatie?uuid=' + uuid + '&username=' + username;
+        window.location.href = 'com.cbfs://askkatie?uuid=' + uuid + '&username=' + username;
     }
     if(/Mobi|iPad|iPhone|iPod/i.test(navigator.userAgent)){
         window.location.href = 'acceptInvite://' + id;
