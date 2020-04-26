@@ -3,7 +3,7 @@
         "apps": [],
         "details": [{
             "appID": "YF8HY2HW94.com.virtualentity.comby",
-            "paths": ["*"]
+            "paths": ["referral/*"]
             }]
     }
 }
