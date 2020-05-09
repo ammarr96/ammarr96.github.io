@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.virtualentity.comby",
+    "sha256_cert_fingerprints":
+    ["28:66:DE:57:8E:9D:E7:B3:07:D9:2C:AD:AB:0D:1C:C0:95:4D:26:C6:35:36:CB:D9:1E:33:2C:CA:C9:F5:59:D4", "A5:F7:C3:0A:89:DE:51:7E:F2:16:BE:A8:51:D2:C3:42:18:2F:54:A4:EA:63:03:90:17:3E:F0:34:62:27:2A:59"]
+  } 
+}]
